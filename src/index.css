@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh; 
+  }
+  
+  th {
+    width: 120px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 3px;
+  }
+
+  .Calendar {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  }
+  
+  td {
+    padding: 5px;
+  }
+  
+  .time {
+    height: 40px;
+  }
+
+  .Event {
+    width: 100px;
+    border-radius: 5px;
+  }
+
+    .Event h6, h5 {
+        line-height: 0px;
+        text-align: center;
+    }
+
+    .blue {
+        background: rgb(133, 188, 236);
+    }
+
+    .green {
+        background: rgb(163, 240, 139);
+    }
+
+    .red {
+        background: rgb(229, 127, 104)
+    }
+
